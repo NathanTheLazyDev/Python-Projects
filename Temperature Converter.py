@@ -1,7 +1,7 @@
 print("Welcome to Nate's temperature converter!, Type x anytime to exit")
-temp = ((input("Enter the temperature digit: ")))
-temp1 = (input("Temperature scale to be converted\n(f - farenheit)\n(c - celsius)\n(k - kelvin): "))
-temp2 = (input("Convert to what temperature scale\n(f - farenheit)\n(c - celsius)\n(k - kelvin): "))
+temp = ((input("Enter the temperature digit: ").upper))
+temp1 = (input("Temperature scale to be converted\n(f - farenheit)\n(c - celsius)\n(k - kelvin): ").upper)
+temp2 = (input("Convert to what temperature scale\n(f - farenheit)\n(c - celsius)\n(k - kelvin): ").upper)
 #c
 if temp1 == temp2:
     print("That's the same temperature!")
