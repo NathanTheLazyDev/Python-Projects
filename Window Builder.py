@@ -1,0 +1,12 @@
+import turtle
+input("Welcome to setup!, Press any key to continue\n")
+Title = (input("Enter Title: "))
+hexcol = (input("Input hex color or color name for window: "))
+w = (int(input("Width: ")))
+h = (int(input("Height: ")))
+print("Enjoy your new window!")
+wn = turtle.Screen()
+wn.setup(800, 700)
+wn.bgcolor(hexcol)
+wn.title(Title)
+turtle.done()
